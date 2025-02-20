@@ -6,7 +6,7 @@ import HeroSketch from 'src/assets/images/hero-sketch.png';
 import HeroImage from 'src/assets/images/hero.png';
 // import HeroRectangle from 'src/assets/images/rectangle.svg';
 
-import { IoIosStar } from "react-icons/io";
+import { IoIosStar } from "react-icons/io/";
 
 import { Link } from 'gatsby';
 
