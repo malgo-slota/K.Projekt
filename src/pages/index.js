@@ -4,9 +4,6 @@ import HeroBgClouds from 'src/assets/images/wind-spring-white-stratosphere-pure.
 import HeroRender from 'src/assets/images/hero-render.png';
 import HeroSketch from 'src/assets/images/hero-sketch.png';
 import HeroImage from 'src/assets/images/hero.png';
-// import HeroRectangle from 'src/assets/images/rectangle.svg';
-
-import { IoIosStar } from "react-icons/io/";
 
 import { Link } from 'gatsby';
 
@@ -29,7 +26,6 @@ import { CallToActionSection } from "../components/CallToActionSection/CallToAct
 import { OpinionsSection } from "../components/OpinionsSections/OpinionsSection";
 import { ShortPresentationSection } from "../components/ShortPresentationSection/ShortPresentationSection";
 import { StyledButton } from "../components/ContactForm/ContactForm.styles";
-import { GoArrowRight } from "react-icons/go";
 
 const IndexPage = () => {
 
@@ -81,13 +77,22 @@ const IndexPage = () => {
                            <Link to="/kontakt">
                               Umów się na konsultację
                           </Link>
-                           <GoArrowRight />
+                          <span className="material-icons">arrow_forward</span>
             
             </StyledButton>
           </TextBottom>
           <ReviewInfo>
             <Link to="https://www.google.com/search?sca_esv=78340331a9a19b7d&hl=pl&gl=PL&sxsrf=AHTn8zqPniopGcZC4dOnyh2YJPw_v739vw:1738851558809&uds=ABqPDvztZD_Nu18FR6tNPw2cK_RRMVituz9GJCiMnfPKnKIowupS2aI2kk1-KFxLTYwcma8bSwmVt5SfM_IMSXpiQqo9g38VxjXxz2q6svcoasdgk6MtdFgJhS78TMyJvDpVYlJ-czO4f2uWLDVk3hXKQsAcs6td6R8hH4w5i8N9L8JcaNxlO9JpUtNkDhZmi_7H1JDXeZsa&q=Biuro+architektoniczne+K.Projekt+Opinie&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzbW1U-qNu6ntXTvmsfeOuj2uw7H_YPNY3hawTQNUWuv5jVNddhjz2gL5F-Iu_Nl8WVfvznyQ64N93yST3TwDjIRwMg6vcQGxZp0-bw0vK24pJwUxSw%3D%3D&sa=X&ved=2ahUKEwjKlOvrnq-LAxUjIhAIHU0cAuUQ_4MLegQIORAN&biw=1738&bih=864&dpr=2" target="_blank">
-              <div><span>5/5</span><span><IoIosStar /><IoIosStar /><IoIosStar /><IoIosStar /><IoIosStar /></span></div>
+              <div>
+              <span>5/5</span>
+              <span>
+                <span className="material-icons">star</span>
+                <span className="material-icons">star</span>
+                <span className="material-icons">star</span>
+                <span className="material-icons">star</span>
+                <span className="material-icons">star</span>
+              </span>
+              </div>
               <div>Ocena na Google</div>
             </Link>
           </ReviewInfo>

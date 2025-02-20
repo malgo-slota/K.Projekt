@@ -137,6 +137,9 @@ export const TextBottom = styled.div`
 		margin-top: 25px;
 		animation: ${reveal} 0.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
 		animation-delay: 2.8s;
+		span {
+			
+		}
 	}
 `;
 
@@ -153,8 +156,12 @@ export const ReviewInfo = styled.div`
 		font-weight: 400;
 	}
 	span {
-		padding-right: 8px;
+		font-size: 0.8rem;
+		span:nth-child(1) {
+		padding-left: 12px;
+		}
 	}
+	
 `;
 
 

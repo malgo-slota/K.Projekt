@@ -16,7 +16,6 @@ module.exports = {
       }
     }, 
     "gatsby-plugin-image", 
-    `gatsby-plugin-react-icons`,
     "gatsby-plugin-sharp", 
     "gatsby-transformer-sharp", 
     "gatsby-plugin-styled-components", 

@@ -57,6 +57,9 @@ export const Wrapper = styled.section`
             display: flex;
             justify-content: center;
             align-items: center;
+            span {
+                font-size: 2rem;
+            }
             ${({ theme }) => theme.mq.desktop} { 
                 font-size: 42px;
                 width: 70px;

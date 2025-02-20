@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import { useForm, ValidationError } from '@formspree/react';
-import { GoArrowRight } from "react-icons/go";
 import {
     Form,
     FormField,
@@ -73,7 +72,7 @@ export const ContactForm = () => {
 
             <StyledButton type="submit" disabled={state.submitting}>
                 {!state.succeeded ? <p>Wyślij</p> : <p>Dziękuję za wiadomość!</p>}
-                 <GoArrowRight />
+                <span className="material-icons">arrow_forward</span>
             </StyledButton>
             
             {/* {state.errors.length

@@ -10,7 +10,7 @@ export const OpinionsSection = () => {
     return (
         <OpinionsSectionWrapper>
             <h2>Klienci, o współpracy ze mną</h2>
-            <TrustmaryWidget />
+            {/* <TrustmaryWidget /> */}
         </OpinionsSectionWrapper>
     );
 }

@@ -71,7 +71,7 @@ export const StyledButton = styled.button`
       padding-left: 16px;
       color: white;
     }
-    svg {
+    span {
       opacity: 0;
       transform: translate(100%);
       transition: opacity .15s ease;
@@ -80,7 +80,7 @@ export const StyledButton = styled.button`
       padding-right: 2rem;
       background: #165438;
 
-      svg {
+      span {
         opacity: 1;
         transform: translate(50%);
         transition: .25s ease .1s;
