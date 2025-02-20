@@ -1,9 +1,9 @@
-import styled, {keyframes} from "styled-components";
+import styled from "styled-components";
 
 export const OfferContentWrapper = styled.div`
     display: flex;
     flex-direction: column;
-`
+`;
 
 export const SubtitleText = styled.div`
     text-align: center;
@@ -23,7 +23,7 @@ export const SubtitleText = styled.div`
         padding: .5rem;
     }
     a:visited { 
-        color: ${({ theme }) => theme.color.smoke};
+        /* color: ${({ theme }) => theme.color.smoke}; */
     }
 `;
 
@@ -44,7 +44,7 @@ export const OfferGrid = styled.div`
 
 export const OfferWrapper = styled.div`
     min-height: 425px;
-    border-bottom: 2px solid ${({ theme }) => theme.color.smoke};
+    /* border-bottom: 2px solid ${({ theme }) => theme.color.smoke}; */
     margin-bottom: 12px;
     h2 {
         margin-bottom: 16px;

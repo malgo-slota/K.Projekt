@@ -1,16 +1,13 @@
 export const theme = {
      color: {
         white: 'hsl(0, 0%, 100%)',
-      //   whiteSmoke: 'hsl(51, 14%, 90%)',
         whiteSmoke: 'hsl(0, 0%, 96%)',
         warmGrey: 'hsl(48, 2%, 57%)',
         smoke: 	'hsl(0, 0%, 19%)',
         black: 	'hsl(237, 100%, 4%)',
       //   green: 'hsl(153, 63%, 18%)',
-      green: '#23443D',
+        green: '#23443D',
         sageGreen: 'hsl(89, 58%, 22%)',
-      //   #59B678
-      // hsl(180, 6%, 20%)
      },
      font: {
         size: {
