@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { ContentWrapper } from './CallToActionSection.styles'
 import { StyledButton } from '../ContactForm/ContactForm.styles';
-// import { GoArrowRight } from "react-icons/go";
+import arrowIcon from 'src/assets/images/free_icon_1.svg'
 
 export const CallToActionSection = () => {
    
@@ -13,7 +13,7 @@ export const CallToActionSection = () => {
                 <Link to="/kontakt">
 					Skontaktuj się
 				</Link>
-                <span className="material-icons">arrow_forward</span>
+               <img src={arrowIcon} />
             </StyledButton>
         </ContentWrapper>
 	);

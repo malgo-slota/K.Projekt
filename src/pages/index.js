@@ -1,10 +1,7 @@
 import * as React from "react"
-// import HeroImg from 'src/assets/images/hero.jpg';
-import HeroBgClouds from 'src/assets/images/wind-spring-white-stratosphere-pure.jpg';
-import HeroRender from 'src/assets/images/hero-render.png';
-import HeroSketch from 'src/assets/images/hero-sketch.png';
 import HeroImage from 'src/assets/images/hero.png';
-
+import starIcon from 'src/assets/images/7958382471556281944.svg'
+import arrowIcon from 'src/assets/images/free_icon_1.svg'
 import { Link } from 'gatsby';
 
 import {
@@ -77,7 +74,7 @@ const IndexPage = () => {
                            <Link to="/kontakt">
                               Umów się na konsultację
                           </Link>
-                          <span className="material-icons">arrow_forward</span>
+                          <img src={arrowIcon} />
             
             </StyledButton>
           </TextBottom>
@@ -86,11 +83,11 @@ const IndexPage = () => {
               <div>
               <span>5/5</span>
               <span>
-                <span className="material-icons">star</span>
-                <span className="material-icons">star</span>
-                <span className="material-icons">star</span>
-                <span className="material-icons">star</span>
-                <span className="material-icons">star</span>
+                <img src={starIcon} />
+                <img src={starIcon} />
+                <img src={starIcon} />
+                <img src={starIcon} />
+                <img src={starIcon} />
               </span>
               </div>
               <div>Ocena na Google</div>

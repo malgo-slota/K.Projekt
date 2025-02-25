@@ -1,11 +1,10 @@
 import React, { useState, useEffect, useRef} from "react";
 import { Wrapper } from "./ShortPresentationSection.styles";
-//react icons
-// import { MdArchitecture } from "react-icons/md";
-// import { IoHappy } from "react-icons/io5";
-// import { PiBuildingsFill } from "react-icons/pi";
-// import { FaPerson } from "react-icons/fa6";
-// import { MdEngineering } from "react-icons/md";
+import preciseIcon from 'src/assets/images/6426180251667369404.svg';
+import personIcon from 'src/assets/images/20223058681640072063.svg';
+import clientIcon from 'src/assets/images/3015048451678688795.svg';
+import specIcon from 'src/assets/images/12989963951595119023.svg';
+import buildIcon from 'src/assets/images/18104400711600701944.svg';
 
 import { useIntersectionObserver } from '../../hooks/useIntersectionObserver';
 
@@ -19,23 +18,23 @@ export const ShortPresentationSection = () => {
     return (
         <Wrapper ref={elementRef} isVisible={isIntersecting}>
             <div>
-                <div><span className="material-icons">architecture</span></div>
+                <div><img src={preciseIcon} /></div>
                 <p>Dbałość o szczegóły</p>
             </div>
             <div>
-                <div><span className="material-icons">person</span></div>
+                <div><img src={personIcon} /></div>
                 <p>Indywidualne podejście</p>
             </div>
             <div>
-                <div><span className="material-icons">sentiment_very_satisfied</span></div>
+                <div><img src={clientIcon} /></div>
                 <p>Zaangażowanie w dobro klienta</p>
             </div>
             <div>
-                <div><span className="material-icons">engineering</span></div>
+                <div><img src={specIcon} /></div>
                 <p>Współpraca ze specjalistami</p>
             </div>
             <div>
-                <div><span className="material-icons">apartment</span></div>
+                <div><img src={buildIcon} /></div>
                 <p>Kompleksowa usługa</p>
             </div>
         </Wrapper>

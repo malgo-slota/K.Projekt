@@ -137,8 +137,9 @@ export const TextBottom = styled.div`
 		margin-top: 25px;
 		animation: ${reveal} 0.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
 		animation-delay: 2.8s;
-		span {
-			
+		img {
+			width: 18px;
+			filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(347deg) brightness(106%) contrast(104%);
 		}
 	}
 `;
@@ -155,11 +156,11 @@ export const ReviewInfo = styled.div`
 		color: ${({ theme }) => theme.color.smoke};
 		font-weight: 400;
 	}
-	span {
-		font-size: 0.8rem;
-		span:nth-child(1) {
-		padding-left: 12px;
-		}
+	img {
+		width: 11px;
+	}
+	span:nth-child(1) {
+		padding-right: 22px;
 	}
 	
 `;

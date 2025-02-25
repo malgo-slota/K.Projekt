@@ -57,8 +57,9 @@ export const Wrapper = styled.section`
             display: flex;
             justify-content: center;
             align-items: center;
-            span {
-                font-size: 2rem;
+            img {
+                width: 36px;
+                filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(347deg) brightness(106%) contrast(104%);
             }
             ${({ theme }) => theme.mq.desktop} { 
                 font-size: 42px;

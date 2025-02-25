@@ -10,6 +10,7 @@ import {
 	
 } from './ContactForm.styles';
 import Dropdown from '../Dropdown/Dropdown';
+import arrowIcon from 'src/assets/images/free_icon_1.svg';
 
 export const ContactForm = () => {
 
@@ -72,7 +73,7 @@ export const ContactForm = () => {
 
             <StyledButton type="submit" disabled={state.submitting}>
                 {!state.succeeded ? <p>Wyślij</p> : <p>Dziękuję za wiadomość!</p>}
-                <span className="material-icons">arrow_forward</span>
+                <img src={arrowIcon} />
             </StyledButton>
             
             {/* {state.errors.length

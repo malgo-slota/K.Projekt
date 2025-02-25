@@ -71,7 +71,9 @@ export const StyledButton = styled.button`
       padding-left: 16px;
       color: white;
     }
-    span {
+    img {
+      width: 18px;
+			filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(347deg) brightness(106%) contrast(104%);
       opacity: 0;
       transform: translate(100%);
       transition: opacity .15s ease;
@@ -80,7 +82,7 @@ export const StyledButton = styled.button`
       padding-right: 2rem;
       background: #165438;
 
-      span {
+      img {
         opacity: 1;
         transform: translate(50%);
         transition: .25s ease .1s;
