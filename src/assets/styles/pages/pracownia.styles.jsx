@@ -11,7 +11,7 @@ export const SubpageContent = styled.div`
 
 export const Content = styled.div`
     padding: 24px;
-    background-color: ${({ theme }) => theme.color.whiteSmoke};
+    background-color: hsl(0, 0%, 96%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,9 +29,9 @@ export const StyledTitle = styled.div`
 
 export const TextContent = styled.div`
     order: 1;
-    color: ${({ theme }) => theme.color.warmGrey};
+    color: hsl(48, 2%, 57%);
     h2 {
-        color: ${({ theme }) => theme.color.smoke};
+        color: hsl(0, 0%, 19%);
         font-size: 32px;
         font-weight: 400;
     }
